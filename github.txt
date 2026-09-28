@@ -1,0 +1,50 @@
+// set global git username and email globally -- chatgpt search
+run these commands
+
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+
+verify
+
+git config --global user.name
+git config --global user.email
+
+or view all global  git settings
+
+git config --global --list
+======================================
+// git ke code ka clone chaanhiye ye command 
+
+git config -- global http.proxy http://192.168.10.253:808
+git config -- global https.proxy http://192.168.10.253:808
+
+git clone https://github.com/narutouzumaki8519001-debug/div-d.git
+// check karne ke liye command kya kya file he
+git status
+// comit ke command
+git add .
+
+// comments addd karke liye m use
+git commit -m"update by harshad"
+// file moklava
+git push
+git status
+
+git branch
+git checkout -b harshad
+git merge harshad
+
+// project clone:
+
+git clone giturl
+//now you work in your project
+
+//after work you want to push data on git
+
+git status // check status for new work
+
+git add . // add files for commit
+
+git commit -m "comment here"
+
+git push //this command for push code on git
